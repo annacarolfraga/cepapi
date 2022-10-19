@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BuscaCEP</title>
+</head>
+
+<body>
+    <section id="container">
+
+        <div class="top">
+            <h1>BuscaCEP &#128269;</h1>
+
+            <p>O BuscaCEP é uma plataforma destinada em preencher seu endereço, atravês do CEP, de maneira simples, rápida e eficaz.</p>
+        </div>
+        <div class="form-div">
+            <form action="" id="formulario">
+                <br>
+                <label for=""> Digite seu CEP ->
+                    <input type="text" name="cep" placeholder=" " id="cep">
+                    <button type="button" onclick='consultarCep()'>Consultar</button>
+                    <br><label id="resposta"></label>
+                </label>
+
+                <div id="hidden-show" style="display: none;">
+                    <br><br>
+                    <label for=""> Rua   </label>
+                    <input type="text" name="" placeholder=" " id="logradouro">
+
+                    <label for="">  Bairro   </label>
+                    <input type="text" name="" placeholder=" " id="bairro">
+
+                    <br><br>
+                    <label for=""> Cidade</label>
+                    <input type="text" name="" placeholder=" " id="localidade">
+
+                    <label for="">Estado </label>
+                    <input type="text" name="" placeholder=" " id="uf">
+
+                    <br>
+                </div>
+            </form>
+        </div>
+        <br>
+
+       
+    </section>
+</body>
+<script src="src/js/main.js"></script>
+
+</html>
+
